@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.fsu.cs.cen5035;
+//package edu.fsu.cs.cen5035;
 
 /**
  *
@@ -11,13 +11,19 @@ package edu.fsu.cs.cen5035;
  */
 public class WeaponFactory {
 
-    public static Weapon getWeapon(String type) {
-        switch (type) {
-            case "sword":
-                return new Sword();
-            default:
-                throw new IllegalArgumentException("Invalid type");
-        }
-    }
+	public static Weapon getWeapon(String type) {
+		switch (type) {
+		case "sword":
+			return new Sword();
+		case "Arrow":
+			return new Arrow();
+		case "Axe":
+			return new Axe();
+		case "MagicStaff":
+			return new MagicStaff();
+		default:
+			throw new IllegalArgumentException("Invalid type");
+		}
+	}
 
 }

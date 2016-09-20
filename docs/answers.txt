@@ -1,0 +1,26 @@
+(a) 3
+
+(b) When the "push" happens in step 8, file .gitignore got modified.
+
+(c) 0
+
+(d) git log: Shows the commit logs. The command takes options applicable to the git 
+rev-list command to control what is shown and how, and options applicable to the git
+diff-* commands to control how the changes each commit introduces are shown. We can
+use git log to view the commit history.
+
+git status: Show the working tree status
+Displays paths that have differences between the index file and the current HEAD commit,
+paths that have differences between the working tree and the index file, and paths in
+the working tree that are not tracked by Git (and are not ignored by gitignore). The 
+first are what you would commit by running git commit; the second and third are what
+you could commit by running git add before running git commit.
+
+(e) git log -- RoleGame.java or gitk RoleGame.java
+
+(f)http://stackoverflow.com/questions/1337320/how-to-grep-git-commit-diffs-or-contents-for-a-certain-word
+git log --grep=file
+
+(g)http://stackoverflow.com/questions/7926077/how-to-get-diff-for-specified-user-between-two-dates-from-git
+
+git log  --author="Javier" --since "09 1 2016" --until "09 20 2016"
