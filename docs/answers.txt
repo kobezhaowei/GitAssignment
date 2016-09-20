@@ -23,4 +23,4 @@ git log --grep=file
 
 (g)http://stackoverflow.com/questions/7926077/how-to-get-diff-for-specified-user-between-two-dates-from-git
 
-git log  --author="Javier" --since "09 1 2016" --until "09 20 2016"
+git log  --author="Alice" --since "09 1 2016" --until "09 20 2016"
