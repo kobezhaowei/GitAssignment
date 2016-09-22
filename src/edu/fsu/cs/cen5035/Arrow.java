@@ -3,7 +3,7 @@
  */
 
 /**
- * @author Shanghai
+ * @author Weidong Zhao
  *
  */
 public class Arrow extends BasicWeapon implements Weapon {

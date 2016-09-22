@@ -3,7 +3,7 @@
  */
 
 /**
- * @author Shanghai
+ * @author Weidong Zhao
  *
  */
 public class Axe extends BasicWeapon implements Weapon {
