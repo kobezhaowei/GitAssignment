@@ -1,8 +1,19 @@
 (a) 3
 
-(b) When the "push" happens in step 8, file .gitignore got modified.
+(b) Using command "git log", I got a commit logs history. The modified date:
+Thu Sep 15 10:29:34 2016
 
-(c) 0
+A .gitignore file should be committed into your repository, in order to share
+the ignore rules with any other users that clone the repository.
+
+
+(c)  Here is the times each files inside the src folder got modified.
+     
+     BasicWeapon.java: 1
+     RoleGame.java: 1
+     Sword.java: 2
+     Weapon.java: 1
+     WeaponFactory.java: 1
 
 (d) git log: Shows the commit logs. The command takes options applicable to the git 
 rev-list command to control what is shown and how, and options applicable to the git
@@ -16,11 +27,11 @@ the working tree that are not tracked by Git (and are not ignored by gitignore).
 first are what you would commit by running git commit; the second and third are what
 you could commit by running git add before running git commit.
 
+So "git log" shows the history of all commits to the repository, "git status" shows the
+current status of the repository.
+
 (e) git log -- RoleGame.java or gitk RoleGame.java
 
-(f)http://stackoverflow.com/questions/1337320/how-to-grep-git-commit-diffs-or-contents-for-a-certain-word
-git log --grep=file
+(f) git log --grep=file
 
-(g)http://stackoverflow.com/questions/7926077/how-to-get-diff-for-specified-user-between-two-dates-from-git
-
-git log  --author="Alice" --since "09 1 2016" --until "09 20 2016"
+(g) git log  --author="Alice" --since "09 1 2016" --until "09 16 2016"
