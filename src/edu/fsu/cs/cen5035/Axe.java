@@ -19,16 +19,17 @@ public class Axe extends BasicWeapon implements Weapon {
 
 	@Override
 	public int hit(int armor) {
-		int damage = DAMAGE - armor;
+		int damage;
 
 		if (armor < 0) {
 			return 0;
 		} else if (armor > 0 && armor < 20) {
-			return damage = DAMAGE - (armor + DAMAGE);
+			damage = DAMAGE;
 		} else {
-			return damage;
+			damage = DAMAGE - armor;
 		}
 
+		return damage;
 	}
 
 }

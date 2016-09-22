@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-//package edu.fsu.cs.cen5035;
 
 /**
  *
@@ -19,18 +18,22 @@ public class RoleGame {
 				"Swords was able to do " + sword.hit(armor) + " of damage due to an armor with " + armor + " points.");
 
 		// TODO: Add the remainig weapons here
+		// Arrow
 		Weapon Arrow = WeaponFactory.getWeapon("Arrow");
 		System.out.println("Arrow has " + Arrow.hit() + " of damage.");
+		armor = 20;
 		System.out.println(
 				"Arrow was able to do " + Arrow.hit(armor) + " of damage due to an armor with " + armor + " points.");
-
+		// Axe
 		Weapon Axe = WeaponFactory.getWeapon("Axe");
 		System.out.println("Axe has " + Axe.hit() + " of damage.");
+		armor = 20;
 		System.out.println(
 				"Axe was able to do " + Axe.hit(armor) + " of damage due to an armor with " + armor + " points.");
-
+		// MagicStaff
 		Weapon MagicStaff = WeaponFactory.getWeapon("MagicStaff");
 		System.out.println("MagicStaff has " + MagicStaff.hit() + " of damage.");
+		armor = 20;
 		System.out.println("MagicStaff was able to do " + MagicStaff.hit(armor) + " of damage due to an armor with "
 				+ armor + " points.");
 
