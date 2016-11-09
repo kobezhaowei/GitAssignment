@@ -1,7 +1,7 @@
 (a) 3
 
 (b) Using command "git log", I got a commit logs history. The modified date:
-Thu Sep 15 10:29:34 2016
+Thu Sep 15 10:29:34  2016
 
 A .gitignore file should be committed into your repository, in order to share
 the ignore rules with any other users that clone the repository.
